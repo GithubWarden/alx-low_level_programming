@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: this program prints "Size of type: %i byte(s) with newline each" using the printf and sizeof
+ * Description: this program prints "Size of type: %i byte(s) with newline each" using sizeof
  * Return: 0 if successful
  */
 int main(void)
