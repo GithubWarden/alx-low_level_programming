@@ -3,8 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: prints main with text below
- * "Size of type: %i byte(s) with newline each" using sizeof
+ * Description: prints main with text
  * Return: 0 if successful
  */
 int main(void)
