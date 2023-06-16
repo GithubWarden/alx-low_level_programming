@@ -2,7 +2,8 @@
 
 /**
  * main - prints the printf function
- * Description: this program prints "Programming is like building a multilingual puzzle"
+ * Description: prints main with text below
+ * "Programming is like building a multilingual puzzle"
  * Return: 0 if successful
  */
 int main(void)
