@@ -10,16 +10,16 @@
 int main(void)
 {
 	int single;
-	
+
 	single = 0;
 	while (single <= 9)
 	{
 		printf("%d", single);
 		single++;
 	}
-	
+
 	printf("\n");
-	
+
 	return (0);
 }
 
