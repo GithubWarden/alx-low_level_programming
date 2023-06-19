@@ -1,43 +1,49 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - Prints numbers between 00 and 99 in ascending order.
  *
- * Description: Prints all possible combinations of four digits
- *
+ * Description - Prints double two digits numbers
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-    int dig1, dig2, dig3, dig4;
-
-    for (dig1 = 0; dig1 <= 9; dig1++)
-    {
-        for (dig2 = 0; dig2 <= 8; dig2++)
-        {
-            for (dig3 = 0; dig3 <= 9; dig3++)
-            {
-                for (dig4 = 1; dig4 <= 9; dig4++)
-                {
-                    putchar(dig1 + '0');
-                    putchar(dig2 + '0');
-
-                    if (dig1 != 9 || dig2 != 8)
-                    {
-                        putchar(' ');
-                    }
-
-                    putchar(dig3 + '0');
-                    putchar(dig4 + '0');
-
-                    if (dig1 != 9 || dig2 != 8 || dig3 != 9 || dig4 != 9)
-                    {
+	int i, e, g, h, op1, op2;
+	
+	i = e = g = h = 48;
+	while (h < 58)
+	{
+		g = 48;
+		while (g < 58)
+		{
+			e = 48;
+			while (e < 58)
+			{
+				i = 48;
+				while (i < 58)
+				{
+					op1 = (h * 10) + g;
+					op2 = (e * 10) + i;
+					if (op1 < op2)
+					{
+					putchar(h);
+					putchar(g);
+					putchar(' ');
+					putchar(e);
+					putchar(i);
+					
+					if (h == 57 && g == 56 && e == 57 && i == 57)
+					break;
                         putchar(',');
                         putchar(' ');
                     }
+                    i++;
                 }
+                e++;
             }
+            g++;
         }
+        h++;
     }
 
     putchar('\n');
