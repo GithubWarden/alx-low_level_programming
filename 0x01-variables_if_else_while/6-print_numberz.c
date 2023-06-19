@@ -10,16 +10,16 @@
 int main(void)
 {
 	int single;
-	
+
 	single = 0;
 	while (single <= 9)
 	{
 		putchar(single + '0');
 		single++;
 	}
-	
+
 	putchar('\n');
-	
+
 	return (0);
 }
 
