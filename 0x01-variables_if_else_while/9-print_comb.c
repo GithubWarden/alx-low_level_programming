@@ -9,23 +9,23 @@
  */
 int main(void)
 {
-    int hex = 0;
+	int single = 0;
 
-    while (hex <= 9)
-    {
-        putchar('0' + hex);
+	while (single <= 9)
+	{
+		putchar('0' + single);
+	
+		if (single != 9)
+		{
+			putchar(',');
+			putchar(' ');
+		}
+	
+		single++;
+	}
 
-        if (hex != 9)
-        {
-            putchar(',');
-            putchar(' ');
-        }
+	putchar('\n');
 
-        hex++;
-    }
-
-    putchar('\n');
-
-    return 0;
+	return (0);
 }
 
