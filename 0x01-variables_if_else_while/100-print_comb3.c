@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: Prints all possible combinations of two digits in ascending order
+ * Description: Prints all possible combinations of two digit
  *
  * Return: Always 0 (Success)
  */
@@ -22,7 +22,7 @@ int main(void)
 			putchar(',');
 			putchar(' ');
 		}
-	
+
 		digit2++;
 		if (digit2 > 9)
 		{
