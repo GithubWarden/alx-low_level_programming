@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * isalpha - prints 1 or 0 depending on input
+ * _isalpha - prints 1 or 0 depending on input
+ * @c: first parameter
  *
  * Description: checks for alphabetic characters
  *
