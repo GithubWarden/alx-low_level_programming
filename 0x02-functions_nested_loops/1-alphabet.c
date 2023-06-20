@@ -2,7 +2,7 @@
 
 
 /**
- * Entry point - main
+ * Entry point - print_alphabet
  *
  * Description: prints alphabets with declared function
  *
