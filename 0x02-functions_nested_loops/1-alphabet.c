@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
@@ -6,19 +5,15 @@
  * Description: prints lowercase alphabets with declared function
  * Result: 0 if successful
  */
-int main(void) {
-    print_alphabet();
-    return 0;
-}
 
 void print_alphabet(void) {
     char lowercase = 'a';
 
     while (lowercase <= 'z') {
-        putchar(lowercase);
+       _putchar(lowercase);
         lowercase++;
     }
 
-    putchar('\n');
+    _putchar('\n');
 }
 
