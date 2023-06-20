@@ -4,6 +4,8 @@
 /**
  * Entry point - print_alphabet
  *
+ * print_alphabet - print alphabet of letters
+ *
  * Description: prints alphabets with declared function
  *
  * Return: void
