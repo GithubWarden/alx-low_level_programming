@@ -12,9 +12,9 @@ void puts_half(char *str)
 {
 	int z, n, length_of_the_string;
 
-	for (z = 0; str[z] != '\0'; z++;)
+	for (z = 0; str[z] != '\0'; z++)
 	{
-		length_of_the_string;
+		length_of_the_string++;
 	}
 
 	n = (length_of_the_string / 2);
