@@ -31,7 +31,7 @@ void puts_half(char *str)
 
 	z = n;
 
-	while (z <= n)
+	while (z >= n)
 	{
 		putchar(str[z]);
 		z++;
