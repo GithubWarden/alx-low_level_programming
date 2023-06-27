@@ -17,11 +17,14 @@ void puts_half(char *str)
 		length_of_the_string++;
 	}
 
-	n = (length_of_the_string / 2);
-
 	if (length_of_the_string % 2 == 1)
 	{
 		n = ((length_of_the_string - 1) / 2);
+	}
+
+	else
+	{
+		n = (length_of_the_string / 2);
 	}
 
 	for (z = n; str[z] != '\0'; z++)
