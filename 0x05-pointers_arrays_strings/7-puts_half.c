@@ -1,42 +1,31 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * puts_half - prints half of a string, starting from the mid point
+ * puts_half - prints half of a string, odd or even.
  *
- * @str: string address
+ * @str: string
  *
- * Return: nothing
+ * Return: half of the string
  */
 
-void puts_half(char *str)
+void puts_half(char *str);
 {
-	int length_of_the_string = 0;
-	int n;
-	int z;
+	int z, n, length_of_the_string;
 
-	while (str[length_of_the_string] != '\0')
+	for (z = 0; str[z] != '\0'; z++;)
 	{
-		length_of_the_string++;
+		length_of_the_string;
 	}
 
-	if (length_of_the_string % 2 == 0)
+	n = (length_of_the_string / 2);
+
+	if (length_of_the_string % 2 == 1)
 	{
-		n = length_of_the_string / 2;
-	}
-	else
-	{
-		n = (length_of_the_string - 1) / 2;
+		n = ((length_of_the_string - 1) / 2);
 	}
 
-	z = n;
-
-	while (str[z] != '\0')
+	for (z = n; str[z] != '\0'; z++)
 	{
-		putchar(str[z]);
-		z++;
+		_putchar(str[z]);
 	}
-
-	putchar('\n');
-
 }

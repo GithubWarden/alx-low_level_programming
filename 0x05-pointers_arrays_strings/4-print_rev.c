@@ -23,9 +23,9 @@ void print_rev(char *s)
 
 	while (z >= 0)
 	{
-		putchar(s[z]);
+		_putchar(s[z]);
 		z--;
 	}
 
-	putchar('\n');
+	_putchar('\n');
 }
