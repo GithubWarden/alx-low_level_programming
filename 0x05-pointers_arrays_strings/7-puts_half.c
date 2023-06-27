@@ -8,7 +8,7 @@
  * Return: half of the string
  */
 
-void puts_half(char *str);
+void puts_half(char *str)
 {
 	int z, n, length_of_the_string;
 
