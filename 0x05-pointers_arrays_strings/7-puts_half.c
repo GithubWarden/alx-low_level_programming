@@ -12,13 +12,13 @@
 void puts_half(char *str)
 {
 	int length_of_the_string = 0;
+	int n;
+	int z;
 
 	while (str[length_of_the_string] != '\0')
 	{
 		length_of_the_string++;
 	}
-
-	int n;
 
 	if (length_of_the_string % 2 == 0)
 	{
@@ -28,8 +28,8 @@ void puts_half(char *str)
 	{
 		n = (length_of_the_string - 1) / 2;
 	}
-
-	int z = n;
+	
+	z = n;
 
 	while (z < length_of_the_string)
 	{
